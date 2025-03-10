@@ -1,7 +1,7 @@
 package Level0;
 import java.util.Scanner;
 
-public class Solution004_1 {
+public class Solution001_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
