@@ -11,7 +11,7 @@ public class Solution009 {
         solution.solution("aaaabbcccdeeefghhhhhhhhhhhhh");
     }
 
-    public void solution(String str) {
+    public char solution(String str) {
         int[] alphabet_occurrence_array = new int[26];
         int max_occurrence = 0;
         int max_alphabet_index = 0;
@@ -32,7 +32,6 @@ public class Solution009 {
             }
         }
 
-        System.out.println(max_occurrence);
-        System.out.println((char) ('a' + max_alphabet_index));
+        return (char) ('a' + max_alphabet_index);
     }
 }
